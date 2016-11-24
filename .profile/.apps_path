@@ -1,0 +1,4 @@
+export PATH="$PATH:/opt/sublime_text"
+export PATH="$PATH:$HOME/robomongo/bin"
+export PATH="$PATH:$HOME/dbeaver"
+
