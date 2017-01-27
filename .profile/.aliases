@@ -1,0 +1,2 @@
+alias clipboard='xclip -sel clip'
+alias tools='cd ~/projects/juliano.galgaro/bots/TOOLS/'
