@@ -153,6 +153,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        strip_workspace_numbers yes
 }
 
 # lock computer (Alt + Delete)
@@ -178,3 +179,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
 exec gsettings set org.gnome.desktop.background show-desktop-icons false
+
+# Music workspace
+bindsym $mod+m workspace music
+bindsym $mod+Shift+m move container to workspace music
