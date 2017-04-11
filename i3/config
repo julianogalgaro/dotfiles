@@ -183,3 +183,4 @@ exec gsettings set org.gnome.desktop.background show-desktop-icons false
 # Music workspace
 bindsym $mod+m workspace music
 bindsym $mod+Shift+m move container to workspace music
+

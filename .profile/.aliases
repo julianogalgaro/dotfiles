@@ -1,3 +1,6 @@
 alias clipboard='xclip -sel clip'
 alias tools='cd ~/projects/juliano.galgaro/bots/TOOLS/'
 alias r='echo "you dont need this. ¬¬"'
+alias jaws='cd ~/projects/go/src/gitlab.neoway.com.br/jaws'
+alias matadeiro='cd ~/projects/matadeiro'
+alias solr-sql='cd ~/projects/matadeiro/solr-neoway/solr-sql'

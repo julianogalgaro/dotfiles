@@ -28,3 +28,4 @@
   252  sudo apt-get install xbacklight
   379  history | grep apt
 sudo apt-get install xclip
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
