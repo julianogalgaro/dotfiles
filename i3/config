@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec i3-sensible-terminal --hide-menubar
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -158,6 +158,7 @@ bar {
 
 # lock computer (Alt + Delete)
 bindcode $mod+119 exec i3lock -c 000000 -n
+#bindcode $mod+119 exec ./lock.sh
 #bindcode $mod+119 exec i3lock -t -i ~/Downloads/kernelpanic.png -n
 exec --no-startup-id nitrogen --restore
 
