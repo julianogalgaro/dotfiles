@@ -92,3 +92,4 @@ source $ZSH/oh-my-zsh.sh
 
 . $HOME/repo/dotfiles/.profile/.aliases
 . $HOME/projects/juliano.galgaro/bots/KEYS/aliases_keys.sh
+. $HOME/repo/dotfiles/.profile/.envvars
