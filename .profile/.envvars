@@ -1,0 +1,2 @@
+export MATADEIRO_HOME=$HOME/projects/matadeiro
+export KEYS_HOME=$HOME/projects/keys
