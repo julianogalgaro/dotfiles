@@ -161,7 +161,7 @@ bindcode $mod+119 exec i3lock -c 000000 -n
 #bindcode $mod+119 exec ./lock.sh
 #bindcode $mod+119 exec i3lock -t -i ~/Downloads/kernelpanic.png -n
 exec --no-startup-id nitrogen --restore
-
+exec_always --no-startup-id xautolock -time 1 -locker "i3lock -c 000000 -n"
 
 # start arquivos
 bindsym $mod+o exec nautilus 
@@ -186,3 +186,5 @@ bindsym $mod+m workspace music
 bindsym $mod+Shift+m move container to workspace music
 for_window [class="Spotify"] move to workspace music
 
+#Mouse sensivity
+exec xinput --set-prop 12 "Device Accel Constant Deceleration" 1.3
