@@ -1,2 +1,6 @@
 export MATADEIRO_HOME=$HOME/projects/matadeiro
 export KEYS_HOME=$HOME/projects/keys
+export TEAHUPOO_HOME=$HOME/projects/teahupoo
+export INDEXER_PORT=10102
+export JAWS_HOME=$GOPATH/src/gitlab.neoway.com.br/jaws
+export REPLICA_PORT=12002
