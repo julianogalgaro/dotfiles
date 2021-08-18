@@ -6,3 +6,4 @@ alias dataplatform='cd ~/workspace/go/src/gitlab.neoway.com.br/dataplatform'
 alias matadeiro='cd ~/workspace/matadeiro'
 alias solr-sql='cd ~/workspace/matadeiro/solr-neoway/solr-sql'
 alias mapping="cd ~/workspace/matadeiro/data-nasa-tools/mapping-deploy"
+alias checkBranches='find . -maxdepth 1 -type d -exec sh -c '\''cd -P -- "{}" && [ -d ".git" ] && printf "{}: [" && printf $(git rev-parse --abbrev-ref HEAD)"]\n" '\'' \; | sort'
