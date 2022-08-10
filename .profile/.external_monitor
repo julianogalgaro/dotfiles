@@ -1,5 +1,5 @@
-xrandr --output HDMI1 --above eDP1
+xrandr --output HDMI-1 --above eDP-1
 count=$(xrandr --listactivemonitors | head -n 1 | awk -F " " '{print $2}')
 if [ "${count}" == "3" ]; then
-  xrandr --output DP1 --rotate left --pos 1921x0
+  xrandr --output DP-1 --rotate left --pos 1921x0
 fi
